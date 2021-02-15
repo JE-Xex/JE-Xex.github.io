@@ -1,26 +1,132 @@
 * {
+    display: flex;
+    flex-direction: column;
     font-family:sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    color:antiquewhite;
+    background: rgba(0, 0, 0, 0.171);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    z-index: 100;
+    
 }
 
-div
+body 
 {
+    background-image: url(Images/LadyGun.PNG);
+    
+    background-size: 100%;
+    background-position: fixed;
+    background-position-y: -30em;
+    
+}
+
+nav 
+{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14, 14, 14, 0.342);
+    justify-content: center;
+    
+}
+
+main 
+{
+    display: flex;
+    justify-items: center;
+    justify-self: center;
+}
+
+#aboutMe
+{
+    padding-top: 8em;
+    padding-bottom: 25em;
+}
+
+#contactMe
+{
+    padding-top: 10em;
+}
+
+p
+{
+    padding: 3em;
+}
+
+#projects
+{
+    
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    margin: .02em;
-    padding: .01em;
+    width: 100%;
+    background: rgb(28, 29, 34);
+    border: .2em solid rgb(91, 91, 102);
+    
+}
 
+#projectGallery 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2em rgba(41, 48, 48, 0.486) solid;
+    border-radius: 2%;
+}
 
+article
+{
+    display: flex;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#nav1 
+{
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+#nav2 
+{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#nav3 
+{
+    padding-left: 2em;
+    padding-right: 1em;
 }
 
 img 
 {
     display: flex;
-    flex-direction: row-reverse;
-    width: 20%;
+    padding: .1em;
+    
+}
+
+#foreGroundImage 
+{
+    z-index: 102;
+    width: 100%;
+    position: fixed;
+    top: 20em;
+}
+
+#ThingsIdo 
+{
+    padding-top: 20em;
+    padding-bottom: 2em;
 }
